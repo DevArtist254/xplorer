@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <h3 class="nav__logo logo">Xplorer</h3>
+      <ul class="nav__list">
+        <li class="nav__items">
+          <span href="#" class="nav__search">
+            <input class="nav__search--input" />
+            <span
+              class="iconify"
+              data-icon="fluent:globe-search-24-filled"
+              style="color: #000; font-size: 3.5rem;"
+            ></span
+          ></span>
+          <img src="./images/triangle.svg" alt="tri" class="triangle" />
+          <div class="dropdown">
+            <h2 class="dropdown__header">
+              Filters
+            </h2>
+
+            <div class="dropdown__diff">
+              <div class="dropdown__diff--input">
+                <input type="checkbox" />
+                <h3 class="dropdown__diff--header">Difficulty</h3>
+              </div>
+              <div class="dropdown__diff--input">
+                <input type="checkbox" />
+                <h3 class="dropdown__diff--header">Medium</h3>
+              </div>
+              <div class="dropdown__diff--input">
+                <input type="checkbox" />
+                <h3 class="dropdown__diff--header">Easy</h3>
+              </div>
+            </div>
+
+            <div class="dropdown__range">
+              <h3 class="dropdown__range--header">
+                Range
+              </h3>
+
+              <div class="dropdown__range--inputs">
+                <input type="text" class="dropdown__range--input" />
+                <p class="dropdown__range--p">to</p>
+                <input type="text" class="dropdown__range--input" />
+              </div>
+            </div>
+
+            <div class="dropdown__location">
+              <span
+                class="iconify"
+                data-icon="entypo:location"
+                style="color: white; font-size: 3.5rem;"
+              ></span>
+              <p class="dropdown__location--header">
+                Close to me
+              </p>
+            </div>
+
+            <div class="dropdown__cta">
+              Submit
+            </div>
+          </div>
+        </li>
+        <li class="nav__items">
+          <a href="#" class="nav__link"
+            ><span
+              class="iconify"
+              data-icon="healthicons:ui-user-profile"
+              style="color: #000; font-size: 3.5rem;"
+            ></span
+          ></a>
+          <img src="./images/triangle.svg" alt="tri" class="triangle-1" />
+          <div class="dropdown">
+            <h2 class="dropdown__header">
+              User Profile
+            </h2>
+            <h3 class="dropdown__header--sub">
+              Name
+            </h3>
+            <h3 class="dropdown__p">
+              Kevin Wasonga
+            </h3>
+            <h3 class="dropdown__header--sub">
+              Email
+            </h3>
+            <h3 class="dropdown__p">
+              Jackwest@gmail.com
+            </h3>
+            <div class="dropdown__cta btn-plus">
+              Upload image
+            </div>
+            <div class="dropdown__cta">
+              Submit
+            </div>
+          </div>
+        </li>
+        <li class="nav__items">
+          <a href="/nav.html" class="nav__link"
+            ><span
+              class="iconify"
+              data-icon="bi:handbag-fill"
+              style="color: #000; font-size: 3.5rem;"
+            ></span
+          ></a>
+          <img src="./images/triangle.svg" alt="tri" class="triangle-2" />
+          <div class="dropdown">
+            <h2 class="dropdown__header">
+              Tours
+            </h2>
+            <div class="dropdown__tours">
+              <h4 class="dropdown__tours--header">Tour</h4>
+              <p class="dropdown__tours--total">$200</p>
+              <img
+                src="./images/x.png"
+                alt="cancel"
+                class="dropdown__tours--cancel"
+              />
+            </div>
+            <div class="dropdown__tours">
+              <h4 class="dropdown__tours--header">Tour</h4>
+              <p class="dropdown__tours--total">$200</p>
+              <img
+                src="./images/x.png"
+                alt="cancel"
+                class="dropdown__tours--cancel"
+              />
+            </div>
+            <div class="dropdown__tours">
+              <h4 class="dropdown__tours--header">Tour</h4>
+              <p class="dropdown__tours--total">$200</p>
+              <img
+                src="./images/x.png"
+                alt="cancel"
+                class="dropdown__tours--cancel"
+              />
+            </div>
+
+            <p class="dropdown__p">
+              Total : Total amount
+            </p>
+            <div class="dropdown__cta">
+              Pay
+            </div>
+          </div>
+        </li>
+        <li class="nav__items">
+          <img src="./images/wishlist.svg" style="width: 110px;" />
+        </li>
+      </ul>
+    </nav>
+
+    <div class="footer">
+      <div class="footer__slogan">
+        <a href="/top-tours.html" class="footer__slogan--link link-primary"
+          >Top Tours</a
+        >
+        <h2 class="footer__slogan--sub-header sub-header">
+          Brighten your days
+        </h2>
+        <h1 class="footer__slogan--header header">
+          Let's get lost
+        </h1>
+      </div>
+      <div class="footer__cta">
+        <div class="footer__cta--link">
+          <a href="#" class="link-primary">All tours</a>
+          <span
+            class="iconify"
+            data-icon="akar-icons:arrow-right"
+            style="color: #000; font-size: 3.5rem;"
+          ></span>
+        </div>
+      </div>
+    </div>
+
+    <video autoplay loop>
+      <source
+        src="./images/A couple running towards the sea.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+  </body>
+</html>

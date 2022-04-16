@@ -1,0 +1,24 @@
+/*
+Media Query Manager
+
+Breakpoints : Screens         : nickname
+
+0-600 px    : phone           : phone
+600-900 px  : tablet-portrait : tab-port
+900-1200 px : tablet-landscape: tab-land
+1200-1800 px: normal becoz its desktop first method
+1800px +    : Big Monitor     : big-screen
+
+1em = 16px
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNvbmNhdC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7OztDQVlDO0FBQ0Q7OztFQUdFLFNBQVM7RUFDVCxVQUFVO0VBQ1Ysc0JBQXNCLEVBQUU7O0FBRTFCO0VBQ0UsZ0JBQWdCLEVBQUUiLCJmaWxlIjoic3R5bGUucHJlZml4LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG5NZWRpYSBRdWVyeSBNYW5hZ2VyXG5cbkJyZWFrcG9pbnRzIDogU2NyZWVucyAgICAgICAgIDogbmlja25hbWVcblxuMC02MDAgcHggICAgOiBwaG9uZSAgICAgICAgICAgOiBwaG9uZVxuNjAwLTkwMCBweCAgOiB0YWJsZXQtcG9ydHJhaXQgOiB0YWItcG9ydFxuOTAwLTEyMDAgcHggOiB0YWJsZXQtbGFuZHNjYXBlOiB0YWItbGFuZFxuMTIwMC0xODAwIHB4OiBub3JtYWwgYmVjb3ogaXRzIGRlc2t0b3AgZmlyc3QgbWV0aG9kXG4xODAwcHggKyAgICA6IEJpZyBNb25pdG9yICAgICA6IGJpZy1zY3JlZW5cblxuMWVtID0gMTZweFxuKi9cbiosXG4qOjphZnRlcixcbio6OmJlZm9yZSB7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDsgfVxuXG5odG1sIHtcbiAgZm9udC1zaXplOiA2Mi41JTsgfVxuIl19 */
